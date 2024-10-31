@@ -25,6 +25,11 @@ Grouped GEMM for MoE
 
 # Steps for Using
 
+```
+CONDA_ENV_PATH : /where/anaconda3/envs/<ENV_NAME>/lib/python<VERSION>/site-packages/
+export LD_LIBRARY_PATH=<CONDA_ENV_PATH>/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH
+```
+
 ## pip install
 ```bash
 pip install --verbose git+https://github.com/fanshiqing/grouped_gemm@main
